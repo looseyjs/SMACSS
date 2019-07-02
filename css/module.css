@@ -1,0 +1,62 @@
+#a {
+  background-color: aqua;
+}
+
+#b {
+  background-color: bisque;
+}
+
+#c {
+  background-color: red;
+}
+
+#d {
+  background-color: chartreuse;
+}
+
+#e {
+  background-color: peru;
+}
+
+#f {
+  background-color: orchid
+}
+
+#g {
+  background-color: olivedrab
+}
+
+#h {
+  background-color:mediumaquamarine;
+}
+
+#i {
+  background-color: goldenrod;
+}
+/* 
+#a, #b, #c, #d, #i {
+  width: 480px;
+}
+
+#a {
+  height: 75px;
+}
+
+#b {
+  height: 150px;
+  background-color: bisque;
+}
+
+#c, #d {
+  height: 125px;
+}
+
+#i {
+  height: 80px;
+}
+
+#e, #f, #g, #h {
+  width: 240px;
+  height: 250px;
+}
+ */

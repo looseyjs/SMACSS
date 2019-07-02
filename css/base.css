@@ -1,0 +1,15 @@
+/* @media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+  * {
+    width: auto;
+  }
+} */
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  width: 960px;
+  margin: auto;
+}
