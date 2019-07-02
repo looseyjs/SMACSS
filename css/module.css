@@ -1,0 +1,52 @@
+/* @media only screen and (min-device-width: 480px) and (max-device-width: 767px) { */
+  #a, #b, #c, #d, #i {
+    width: 480px;
+  }
+
+  #a {
+    height: 75px;
+    background-color: aqua;
+  }
+
+  #b {
+    height: 150px;
+    background-color: bisque;
+  }
+
+  #c, #d {
+    height: 125px;
+  }
+
+  #c {
+    background-color: red;
+  }
+
+  #d {
+    background-color: chartreuse;
+  }
+
+  #i {
+    height: 80px;
+    background-color: gold;
+  }
+
+  #e, #f, #g, #h {
+    width: 240px;
+    height: 250px;
+  }
+
+  #e {
+    background-color: peru;
+  }
+
+  #f {
+    background-color: orchid
+  }
+
+  #g {
+    background-color: olivedrab
+  }
+
+  #h {
+    background-color:mediumaquamarine;
+  }
