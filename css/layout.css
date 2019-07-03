@@ -12,17 +12,53 @@
 #c, #d {
   width: 380px;
   height: 200px;
-  float: right;
+  float: left;
 }
 
 #e, #f, #g, #h {
   width: 190px;
   height: 250px;
-  float: right;
+  float: left;
 }
 
 #i {
   width: 760px;
   height: 150px;
-  float: right;
+  float: left;
 }
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+  #a, #b, #c, #d, #i {
+    width: 480px;
+  }
+
+  #a {
+    height: 75px;
+  }
+
+  #b {
+    height: 150px;
+  }
+
+  #c, #d {
+    height: 125px;
+  }
+
+  #i {
+    height: 80px;
+  }
+
+  #e, #f, #g, #h {
+    width: 240px;
+    height: 250px;
+    float: left;
+  }
+
+  #a, #b, #c, #d {
+    display: block;
+  }
+
+  #i {
+    display: block;
+  }
+} 
