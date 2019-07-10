@@ -4,13 +4,12 @@
 }
 
 body {
-  width: 960px;
+  width: 480;
   margin: auto;
 }
-
-@media screen and (max-width: 767px){
+@media screen and (min-width: 768px){
   body {
-    width: 480;
+    width: 960px;
     margin: auto;
   }
 }
