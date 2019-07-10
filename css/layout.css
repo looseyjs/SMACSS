@@ -1,64 +1,64 @@
-#a {
+div:nth-child(1) {
   width: 960px;
   height: 100px;
 }
 
-#b {
+div:nth-child(2) {
   width: 200px;
   height: 600px;
   float: left;
 }
 
-#c, #d {
+div:nth-child(3), div:nth-child(4) {
   width: 380px;
   height: 200px;
   float: left;
 }
 
-#e, #f, #g, #h {
+div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8) {
   width: 190px;
   height: 250px;
   float: left;
 }
 
-#i {
+div:nth-child(9) {
   width: 760px;
   height: 150px;
   float: left;
 }
 
-@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
-  #a, #b, #c, #d, #i {
+@media screen and (max-width: 767px) {
+  div:nth-child(1), div:nth-child(2), div:nth-child(3), div:nth-child(4), div:nth-child(9) {
     width: 480px;
   }
 
-  #a {
+  div:nth-child(1) {
     height: 75px;
   }
 
-  #b {
+  div:nth-child(2) {
     height: 150px;
   }
 
-  #c, #d {
+  div:nth-child(3), div:nth-child(4) {
     height: 125px;
   }
 
-  #i {
+  div:nth-child(9) {
     height: 80px;
   }
 
-  #e, #f, #g, #h {
+  div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8) {
     width: 240px;
     height: 250px;
     float: left;
   }
 
-  #a, #b, #c, #d {
+  div:nth-child(1), div:nth-child(2), div:nth-child(3), div:nth-child(4) {
     display: block;
   }
 
-  #i {
+  div:nth-child(9) {
     display: block;
   }
 } 

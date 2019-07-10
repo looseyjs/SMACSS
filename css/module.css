@@ -1,35 +1,35 @@
-#a {
+div:nth-child(1) {
   background-color: aqua;
 }
 
-#b {
+div:nth-child(2) {
   background-color: bisque;
 }
 
-#c {
+div:nth-child(3) {
   background-color: red;
 }
 
-#d {
+div:nth-child(4) {
   background-color: chartreuse;
 }
 
-#e {
+div:nth-child(5) {
   background-color: peru;
 }
 
-#f {
+div:nth-child(6) {
   background-color: orchid
 }
 
-#g {
+div:nth-child(7) {
   background-color: olivedrab
 }
 
-#h {
+div:nth-child(8) {
   background-color:mediumaquamarine;
 }
 
-#i {
+div:nth-child(9) {
   background-color: goldenrod;
 }
